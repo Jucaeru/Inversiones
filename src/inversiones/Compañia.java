@@ -5,6 +5,7 @@
  */
 package inversiones;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -27,4 +28,11 @@ public class Compañia {
     public double calAllProfit(){
         return 0;
     }
+    public ArrayList calMarketAndProfitByAsset(){
+        return null;
+    }
+    public ArrayList calMarketAndProfitByAge(){
+        return null;
+    }
+    public Client
 }
