@@ -34,5 +34,7 @@ public class Compañia {
     public ArrayList calMarketAndProfitByAge(){
         return null;
     }
-    public Client
+    public Client calClientMaxProfit(){
+        return null;
+    }
 }
