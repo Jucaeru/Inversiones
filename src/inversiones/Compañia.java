@@ -5,10 +5,26 @@
  */
 package inversiones;
 
+import java.util.HashMap;
+
 /**
  *
  * @author Estudiante
  */
 public class Compañia {
+    private HashMap<String, Client> clients;
     
+    public Compañia(){
+        this.clients = new HashMap<>();
+    }
+    
+    public boolean addClient(Client client){
+        return true;
+    }
+    public double calAmountAllMarket0(){
+        return 0;
+    }
+    public double calAllProfit(){
+        return 0;
+    }
 }
