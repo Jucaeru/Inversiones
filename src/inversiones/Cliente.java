@@ -26,5 +26,14 @@ public class Client {
         this.age = age;
         this.assets = new Asset [10];
     }
-       
+    
+    public double sumMarketValue(){
+        return 0;
+    }
+    public double sumProfit(){
+        return 0;
+    }
+    public boolean addAsset(Asset asset){
+        return true;
+    }
 }
